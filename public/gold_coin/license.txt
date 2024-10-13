@@ -1,0 +1,11 @@
+Model Information:
+* title:	The Aztec Gold Coin
+* source:	https://sketchfab.com/3d-models/the-aztec-gold-coin-3aea847fb9654c209bd1c0ff83e28df5
+* author:	SorroW (https://sketchfab.com/CoppoB)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "The Aztec Gold Coin" (https://sketchfab.com/3d-models/the-aztec-gold-coin-3aea847fb9654c209bd1c0ff83e28df5) by SorroW (https://sketchfab.com/CoppoB) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
