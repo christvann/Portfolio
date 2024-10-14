@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logotr from "./logotr.png";
 import frontend from "./frontend.png";
 import uidesigner from "./uidesigner.png";
 import mobile from "./mobile.png";
@@ -14,39 +14,15 @@ import html from "./tech/html.png";
 import javascript from "./tech/javascript.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import vuejs from "./tech/vuejs.png"
+import vuejs from "./tech/vuejs.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
 
 import itpln from "./company/itpln.png";
-import iconplus from "./company/iconplus.png"
+import iconplus from "./company/iconplus.png";
 
 import diamond from "./diamond.png";
 import cordial from "./cordial.png";
 import face from "./face.png";
 
-export {
-  logo,
-  frontend,
-  uidesigner,
-  mobile,
-  web,
-  github,
-  menu,
-  close,
-  css,
-  figma,
-  git,
-  html,
-  javascript,
-  nodejs,
-  reactjs,
-  vuejs,
-  tailwind,
-  threejs,
-  itpln,
-  iconplus,
-  diamond,
-  cordial,
-  face,
-};
+export { logotr, frontend, uidesigner, mobile, web, github, menu, close, css, figma, git, html, javascript, nodejs, reactjs, vuejs, tailwind, threejs, itpln, iconplus, diamond, cordial, face };

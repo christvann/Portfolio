@@ -13,7 +13,7 @@ const Coins = ({ isMobile }) => {
       <pointLight intensity={1} position={[0, 5, 5]} />
       <spotLight intensity={5} angle={0.3} penumbra={1} position={[5, 10, 10]} castShadow color="#ffd700" />
       <directionalLight intensity={5} position={[-5, 10, 10]} color="#ffffff" castShadow />
-      <primitive object={coin.scene} scale={0.11} position={[0, -2.0, 0]} rotation={[0, Math.PI + 0.8, 0]} />
+      <primitive object={coin.scene} scale={0.11} position={[0, -2.0, 0]} rotation={[0, Math.PI + 0.9, 0]} />
     </mesh>
   );
 };
