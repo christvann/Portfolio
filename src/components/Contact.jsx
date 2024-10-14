@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import Swal from "sweetalert2";
 
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
@@ -47,7 +48,12 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert("Thank you. I will get back to you as soon as possible.");
+          Swal.fire({
+            icon: "success",
+            title: "Thank you!",
+            text: "I will get back to you as soon as possible.",
+            confirmButtonText: "OK",
+          });
 
           setForm({
             name: "",
@@ -59,7 +65,12 @@ const Contact = () => {
           setLoading(false);
           console.error(error);
 
-          alert("Ahh, something went wrong. Please try again.");
+          Swal.fire({
+            icon: "error",
+            title: "Oops...",
+            text: "Ahh, something went wrong. Please try again.",
+            confirmButtonText: "Retry",
+          });
         }
       );
   };
