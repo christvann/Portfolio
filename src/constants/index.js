@@ -178,7 +178,7 @@ const projects = [
       },
     ],
     image: cordial,
-    source_code_link: "https://github.com/christvann/Crafts-Shop-Website-Landing-Page-",
+    source_code_link: "https://github.com/christvann/Cordial-Craft-Shop",
   },
   {
     name: "Face Recognition",
