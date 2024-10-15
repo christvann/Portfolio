@@ -53,7 +53,7 @@ const Experience = () => {
         viewport={{ once: true, amount: 0.5 }}
       >
         <p className={`${styles.sectionSubText} text-center`}>The work I've completed so far</p>
-        <h2 className={`${styles.sectionHeadText} text-center`}>Experiences.</h2>
+        <h2 className={`${styles.sectionHeadText} text-center`}>Experiences</h2>
       </motion.div>
 
       <div className="mt-20 flex flex-col">

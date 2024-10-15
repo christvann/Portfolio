@@ -19,7 +19,8 @@ module.exports = {
         xs: "450px",
       },
       backgroundImage: {
-        "hero-pattern": "url('/src/assets/herobg.png')",
+        "wave-pattern": "url('/src/assets/wavebg.jpg')",
+        "gradient-wave": "linear-gradient(180deg, rgba(5, 8, 22, 0.5), #050816), url('/src/assets/wavebg.jpg')",
       },
     },
   },
