@@ -3,6 +3,9 @@ import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import Swal from "sweetalert2";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
@@ -118,6 +121,21 @@ const Contact = () => {
       <motion.div variants={slideIn("right", "tween", 0.2, 1)} className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]">
         <EarthCanvas />
       </motion.div>
+
+      <div className="flex absolute justify-center ml-[510px] bottom-[10px] gap-5 w-relative h-[50px]">
+        <div className="flex items-center gap-5 px-5">
+          <div className="cursor-pointer icon-container">
+            <a href="https://www.instagram.com/chrstianvann/" target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faInstagram} style={{ color: "#74C0FC" }} className="size-8" />
+            </a>
+          </div>
+          <div className="cursor-pointer icon-container">
+            <a href="https://www.linkedin.com/in/ivan-christian-7683882a3" target="_blank" rel="nooper noreferrer">
+              <FontAwesomeIcon icon={faLinkedin} style={{ color: "#74C0FC" }} className="size-8" />
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
