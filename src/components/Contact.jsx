@@ -122,18 +122,16 @@ const Contact = () => {
         <EarthCanvas />
       </motion.div>
 
-      <div className="flex absolute justify-center ml-[510px] bottom-[10px] gap-5 w-relative h-[50px]">
-        <div className="flex items-center gap-5 px-5">
-          <div className="cursor-pointer icon-container">
-            <a href="https://www.instagram.com/chrstianvann/" target="_blank" rel="noopener noreferrer">
-              <FontAwesomeIcon icon={faInstagram} style={{ color: "#74C0FC" }} className="size-8" />
-            </a>
-          </div>
-          <div className="cursor-pointer icon-container">
-            <a href="https://www.linkedin.com/in/ivan-christian-7683882a3" target="_blank" rel="nooper noreferrer">
-              <FontAwesomeIcon icon={faLinkedin} style={{ color: "#74C0FC" }} className="size-8" />
-            </a>
-          </div>
+      <div className="absolute bottom-4 left-0 right-0 flex justify-center items-center gap-5">
+        <div className="cursor-pointer icon-container">
+          <a href="https://www.instagram.com/chrstianvann/" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faInstagram} style={{ color: "#74C0FC" }} className="size-8" />
+          </a>
+        </div>
+        <div className="cursor-pointer icon-container">
+          <a href="https://www.linkedin.com/in/ivan-christian-7683882a3" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faLinkedin} style={{ color: "#74C0FC" }} className="size-8" />
+          </a>
         </div>
       </div>
     </div>
