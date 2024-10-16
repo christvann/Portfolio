@@ -79,15 +79,15 @@ const Contact = () => {
   };
 
   return (
-    <div className={`xl:py-10 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}>
+    <div className={`xl:py-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden`}>
       <motion.div variants={slideIn("left", "tween", 0.2, 1)} className="flex-[0.75] bg-black-100 p-8 rounded-2xl">
         <p className={styles.sectionSubText}>Hit me up!</p>
         <h3 className={styles.sectionHeadText}>Contact</h3>
 
-        <form ref={formRef} onSubmit={handleSubmit} className="mt-12 flex flex-col gap-8">
+        <form ref={formRef} onSubmit={handleSubmit} className="mt-10 flex flex-col gap-8">
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Name</span>
-            <input type="text" name="name" value={form.name} onChange={handleChange} placeholder="What's your name?" className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium" />
+            <input type="text" name="name" value={form.name} onChange={handleChange} placeholder="What's your name?" className="bg-tertiary py-3 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium" />
           </label>
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your email</span>
@@ -97,7 +97,7 @@ const Contact = () => {
               value={form.email}
               onChange={handleChange}
               placeholder="What's your email?"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              className="bg-tertiary py-3 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
           <label className="flex flex-col">
@@ -108,7 +108,7 @@ const Contact = () => {
               value={form.message}
               onChange={handleChange}
               placeholder="What you want to say?"
-              className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              className="bg-tertiary py-3 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
 
@@ -122,15 +122,15 @@ const Contact = () => {
         <EarthCanvas />
       </motion.div>
 
-      <div className="absolute bottom-4 left-0 right-0 flex justify-center items-center gap-5">
+      <div className="absolute bottom-[5px] left-0 right-0 flex justify-center items-center gap-5">
         <div className="cursor-pointer icon-container">
           <a href="https://www.instagram.com/chrstianvann/" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faInstagram} style={{ color: "#74C0FC" }} className="size-8" />
+            <FontAwesomeIcon icon={faInstagram} style={{ color: "#74C0FC" }} className="size-[25px]" />
           </a>
         </div>
         <div className="cursor-pointer icon-container">
           <a href="https://www.linkedin.com/in/ivan-christian-7683882a3" target="_blank" rel="noopener noreferrer">
-            <FontAwesomeIcon icon={faLinkedin} style={{ color: "#74C0FC" }} className="size-8" />
+            <FontAwesomeIcon icon={faLinkedin} style={{ color: "#74C0FC" }} className="size-[25px]" />
           </a>
         </div>
       </div>
