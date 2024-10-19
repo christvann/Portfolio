@@ -10,7 +10,7 @@ const Ball = (props) => {
 
   useFrame(() => {
     if (meshRef.current) {
-      meshRef.current.rotation.y += 0.01;
+      meshRef.current.rotation.y += 0.05;
     }
   });
 
