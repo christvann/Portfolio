@@ -19,8 +19,8 @@ const ProjectCard = ({ index, name, description, tags, image, source_code_link }
         }}
         className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
       >
-        <div className="relative w-full h-[230px]">
-          <img src={image} alt="project_image" className="w-full h-full object-cover rounded-2xl" />
+        <div className="relative w-full h-auto">
+          <img src={image} alt="project_image" className="w-full h-full object-contain rounded-2xl" />
 
           <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
             <div onClick={() => window.open(source_code_link, "_blank")} className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer">
@@ -56,9 +56,12 @@ const Works = () => {
 
       <div className="w-full flex">
         <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
-          Here are examples of my work, showcasing my skills and experience through real-world projects. Each project includes a brief description, with links to code repositories, highlighting my ability to solve problems,
-          work with various technologies, and manage projects efficiently.
-          <a href="https://github.com/christvann" target="_blank" className="text-[#3B82F6]"> Check out my GitHub</a>
+          Here are examples of my work, showcasing my skills and experience through real-world projects. Each project includes a brief description, with links to code repositories, highlighting my ability to solve problems, work with
+          various technologies, and manage projects efficiently.
+          <a href="https://github.com/christvann" target="_blank" className="text-[#3B82F6]">
+            {" "}
+            Check out my GitHub
+          </a>
         </motion.p>
       </div>
 
