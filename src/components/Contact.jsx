@@ -6,6 +6,7 @@ import Swal from "sweetalert2";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faSpotify } from "@fortawesome/free-brands-svg-icons";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
@@ -131,6 +132,11 @@ const Contact = () => {
         <div className="cursor-pointer icon-container">
           <a href="https://www.linkedin.com/in/ivan-christian-7683882a3" target="_blank" rel="noopener noreferrer">
             <FontAwesomeIcon icon={faLinkedin} style={{ color: "#74C0FC" }} className="size-[25px]" />
+          </a>
+        </div>
+        <div className="cursor-pointer icon-container">
+          <a href="https://open.spotify.com/user/31kk7ay4vzf2sazgt4ur5cvwqujy?si=0IL5Oq8kRBu6ywtM2C0sMA" target="_blank" rel="noopener noreferrer">
+            <FontAwesomeIcon icon={faSpotify} style={{ color: "#74C0FC" }} className="size-[25px]" />
           </a>
         </div>
       </div>
