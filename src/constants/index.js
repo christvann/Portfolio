@@ -157,7 +157,7 @@ const projects = [
       },
     ],
     image: diamond,
-    source_code_link: "https://github.com/christvann/HIFI-Kemitraan-PLN-Application-Diamond-",
+    source_code_link: "https://github.com/christvann/Diamond_Application",
   },
   {
     name: "Cordial",
@@ -178,7 +178,7 @@ const projects = [
       },
     ],
     image: cordial,
-    source_code_link: "https://github.com/christvann/Cordial-Craft-Shop",
+    source_code_link: "https://github.com/christvann/Cordial_Craft_Shop",
   },
   {
     name: "Face Recognition",
@@ -190,7 +190,7 @@ const projects = [
       },
     ],
     image: face,
-    source_code_link: "https://github.com/christvann/Face-Recognition",
+    source_code_link: "https://github.com/christvann/Face_Recognition",
   },
 ];
 
