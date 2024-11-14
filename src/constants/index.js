@@ -1,4 +1,4 @@
-import { frontend, uidesigner, web, javascript, html, css, reactjs, vuejs, tailwind, nodejs, git, figma, itpln, iconplus, diamond, cordial, face, threejs } from "../assets";
+import { frontend, uidesigner, web, javascript, html, css, reactjs, vuejs, tailwind, nodejs, git, figma, itpln, iconplus, diamond, cordial, icartrade, threejs } from "../assets";
 
 export const navLinks = [
   {
@@ -181,16 +181,24 @@ const projects = [
     source_code_link: "https://github.com/christvann/Cordial_Craft_Shop",
   },
   {
-    name: "Face Recognition",
-    description: "The project involved collecting and preprocessing facial images, training a machine learning model, and deploying the system for practical applications like security and authentication.",
+    name: "ICarTrade Marketplace",
+    description: "IcarTrade Marketplace is an online platform developed to streamline the buying and selling of automotive products. It features user profiles for easy management of listings and secure communication between buyers and sellers, etc.",
     tags: [
       {
-        name: "python",
+        name: "react",
         color: "blue-text-gradient",
       },
+      {
+        name: "drizzle",
+        color: "green-text-gradient",
+      },
+      {
+        name: "clerk",
+        color: "orange-text-gradient",
+      },
     ],
-    image: face,
-    source_code_link: "https://github.com/christvann/Face_Recognition",
+    image: icartrade,
+    source_code_link: "https://github.com/christvann/ICarTrade_Marketplace",
   },
 ];
 

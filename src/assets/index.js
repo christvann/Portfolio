@@ -23,6 +23,6 @@ import iconplus from "./company/iconplus.png";
 
 import diamond from "./diamond.png";
 import cordial from "./cordial.png";
-import face from "./face.png";
+import icartrade from "./icartrade.png";
 
-export { logotr, frontend, uidesigner, mobile, web, github, menu, close, css, figma, git, html, javascript, nodejs, reactjs, vuejs, tailwind, threejs, itpln, iconplus, diamond, cordial, face };
+export { logotr, frontend, uidesigner, mobile, web, github, menu, close, css, figma, git, html, javascript, nodejs, reactjs, vuejs, tailwind, threejs, itpln, iconplus, diamond, cordial, icartrade };
