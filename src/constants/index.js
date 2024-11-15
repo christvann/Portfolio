@@ -144,7 +144,7 @@ const experiences = [
 
 const projects = [
   {
-    name: "Diamond PLN Application",
+    name: "Diamond (PLN Application)",
     description: "The main purpose of this application is as a means for various fields within PLN Icon Plus to submit requests for cooperation or partnerships with external parties. cooperation or partnership with external parties.",
     tags: [
       {
