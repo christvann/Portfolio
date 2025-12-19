@@ -35,8 +35,8 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        I am a proactive student at PLN Institute of Technology pursuing a degree in Informatics Engineering. Passionate about the intersection of technology and creativity, i have a keen interest in web development, graphic design, UI/UX
-        design, front-end development, etc.
+        Graduate of the PLN Institute of Technology with a Bachelor’s degree in Informatics Engineering. Skilled in web-app development, graphic design, UI/UX design, front-end development. Strong foundation in research, problem-solving,
+        and creative digital solutions.
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
