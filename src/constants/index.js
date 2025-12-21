@@ -1,4 +1,4 @@
-import { frontend, uidesigner, web, javascript, html, css, reactjs, vuejs, tailwind, nodejs, git, figma, itpln, iconplus, diamond, cordial, icartrade, threejs } from "../assets";
+import { frontend, software, web, javascript, html, css, reactjs, vuejs, tailwind, nodejs, git, figma, itpln, iconplus, diamond, cordial, icartrade, threejs } from "../assets";
 
 export const navLinks = [
   {
@@ -17,7 +17,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Web App Developer",
     icon: web,
   },
   {
@@ -25,8 +25,8 @@ const services = [
     icon: frontend,
   },
   {
-    title: "UI/UX Designer",
-    icon: uidesigner,
+    title: "Software Developer",
+    icon: software,
   },
 ];
 

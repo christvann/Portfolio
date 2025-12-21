@@ -14,7 +14,7 @@ const Coins = () => {
   });
 
   return (
-    <mesh ref={coinRef} scale={0.016}>
+    <mesh ref={coinRef} scale={0.013}>
       <ambientLight intensity={0.3} groundColor="black" />
       <ambientLight intensity={0.2} />
       <pointLight intensity={1} position={[0, 5, 5]} />

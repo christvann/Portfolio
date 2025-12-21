@@ -1,6 +1,6 @@
 import logotr from "./logotr.png";
 import frontend from "./frontend.png";
-import uidesigner from "./uidesigner.png";
+import software from "./software.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
@@ -25,4 +25,4 @@ import diamond from "./diamond.png";
 import cordial from "./cordial.png";
 import icartrade from "./icartrade.png";
 
-export { logotr, frontend, uidesigner, mobile, web, github, menu, close, css, figma, git, html, javascript, nodejs, reactjs, vuejs, tailwind, threejs, itpln, iconplus, diamond, cordial, icartrade };
+export { logotr, frontend, software, mobile, web, github, menu, close, css, figma, git, html, javascript, nodejs, reactjs, vuejs, tailwind, threejs, itpln, iconplus, diamond, cordial, icartrade };
