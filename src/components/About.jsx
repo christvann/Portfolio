@@ -35,7 +35,7 @@ const About = () => {
       </motion.div>
 
       <motion.p variants={fadeIn("", "", 0.1, 1)} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        Graduate of the PLN Institute of Technology with a Bachelor’s degree in Informatics Engineering. Skilled in web-app development, graphic design, UI/UX design, front-end development. Strong foundation in research, problem-solving,
+        Graduate of the PLN Institute of Technology with a Bachelor’s degree in Informatics Engineering. Skilled in web-app development, software development, UI/UX design, front-end development. Strong foundation in research, problem-solving,
         and creative digital solutions.
       </motion.p>
 
